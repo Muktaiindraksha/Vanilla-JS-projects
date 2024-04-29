@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.lorem-form{
+    margin-top: 10px;
+} 
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+button{
+    height: 30px;
+    width: 5p0x;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 10PX;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #00bfff;
+}

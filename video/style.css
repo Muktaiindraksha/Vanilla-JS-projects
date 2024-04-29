@@ -1,0 +1,40 @@
+/* Stylesheet for Video Player */
+body{
+  background-color: lightyellow; 
+}
+.video-container {
+  max-width: 100px;
+  margin: 200px;
+  margin-left: 500px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  margin-right: 10px;
+}
+
+#myVideo {
+  height: 400px;
+  width: 600px;
+} 
+
+#playPauseBtn{
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px; 
+  color: black;
+}
+
+
+
+
+
+

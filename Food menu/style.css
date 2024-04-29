@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgb(252, 198, 177);
+    padding: 50px;
+}
+
+h1 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-style:inherit;
+}
+
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tab {
+    border: none;
+    background-color: lightgray;
+    color: #666;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.tab.active {
+    background-color: #fff;
+    color: #666;
+}
+
+.tab:hover {
+    background-color:lightcoral;
+    color: white;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    min-width: 600px;
+    max-width: 200px;
+}
+
+
+.menu-item img {
+    width: 267px;
+    height: 167px;
+    margin-right: 20px;
+    border:5px solid lightcoral;
+    border-radius: 5px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 500;
+    color: lightcoral;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 600px;
+    max-width: 200px;
+}
+
+.menu-card img {
+    width: 267px;
+    height: 167px;
+    margin-right: 20px;
+    border: 5px solid lightcoral;
+    border-radius: 5px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.dish-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dish-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: lightcoral;
+    margin-bottom: 10px;
+}
+
+.dish-desc {
+    font-size: 14px;
+    color: #666;
+}
